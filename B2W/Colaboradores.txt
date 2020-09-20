@@ -1,0 +1,18 @@
+
+1 - Nome: RODRIGO ANDRÉ CHIARELLI GONÇALVES
+2 - CPF: 046.208.294-63
+3 - PIS: 170.33259.50-4
+4 - Sexo: MASCULINO
+5 - País: BRASIL
+6 - Estado: SÃO PAULO
+7 - Cidade de Nascimento: BOTUCATU
+8 - Data de Nascimento: 1988-04-30 00:00:00.0
+9 - Estado Civil: CASADO
+10 - Número de filhos: 2
+11 - Agência do Bradesco: 1234-1
+12 - Conta do Bradesco: 1234567-1
+13 - Etnia: BRANCO
+14 - Tamanho da Camiseta: M 
+15 - Orientação Sexual: NÃO INFORMADO
+16 - Religião: NÃO INFORMADO
+17 - Email: rodrigo@hotmail.com
