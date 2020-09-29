@@ -842,7 +842,7 @@ public class TerminalRH {
 												System.out.println("\nDownload realizado!");
 
 											} catch (IOException e) {
-												//e.printStackTrace();
+												// e.printStackTrace();
 												System.out.println("\nErro na operação!");
 											}
 
@@ -1692,9 +1692,9 @@ public class TerminalRH {
 						try {
 							do {
 								System.out.println("\nDigite o apelido do colaborador:");
-								apelido = sc.next();
+								apelido = sc.next() + sc.nextLine();
+								apelido = apelido.toUpperCase();
 							} while (apelido.isEmpty());
-							apelido = apelido.toUpperCase();
 						} catch (NullPointerException e) {
 							System.out.println("\nOperação cancelada!:");
 							break;
@@ -1715,7 +1715,7 @@ public class TerminalRH {
 
 							// Monta o departamento
 							depto = deptoDao.pesquisar(codigoDepto);
-							
+
 							// Cria o colaborador
 							colaborador = new Colaborador(depto, apelido, email);
 
