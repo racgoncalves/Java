@@ -1,0 +1,12 @@
+
+Matricula: 1000
+
+Departamento: ADMINISTRATIVO
+Apelido: JOÃO
+Email: joao@hotmail.com
+
+Matricula: 1002
+
+Departamento: TECNOLOGIA
+Apelido: CAROLZINHA
+Email: carol@hotmail.com
