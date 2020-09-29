@@ -30,8 +30,7 @@ public class DepartamentoDao {
 	 * @throws SQLException
 	 * @throws ItemNaoEncontradoException
 	 */
-	public Departamento pesquisar(int codigo)
-			throws ClassNotFoundException, SQLException, ItemNaoEncontradoException {
+	public Departamento pesquisar(int codigo) throws ClassNotFoundException, SQLException, ItemNaoEncontradoException {
 
 		Departamento depto = null;
 		String nome = "";
@@ -85,7 +84,7 @@ public class DepartamentoDao {
 		Statement stmt = conexao.createStatement();
 
 		// Realizar a pesquisa de todos os departamentos
-		ResultSet resultado = stmt.executeQuery("SELECT * FROM T_XCAVE_DEPARTAMENTO");
+		ResultSet resultado = stmt.executeQuery("SELECT * FROM T_XCAVE_DEPARTAMENTO ORDER BY CD_DEPARTAMENTO");
 
 		while (resultado.next()) {
 
